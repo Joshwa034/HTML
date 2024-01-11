@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>joshdrama</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <style>
+            a {
+                color: rgb(200, 209, 209);
+            }
+            p {
+                font-family: Roboto, Arial;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+            
+            .thumbnail {
+               width: 100%;
+               cursor: pointer;
+               transition: opacity 0.6s ;
+              
+            }
+            .thumbnail:hover, .imgdis{
+                
+                opacity: 0.7;
+            }
+            .thumbnail:active {
+                opacity: 0.2;
+                
+            }
+            
+
+            .search {
+                border-radius: 2;
+                background-color: rgb(24, 21, 21);
+                text-align: center;
+                border: 800;
+                display:inline-block;
+                font-family: Roboto;
+                font-size: 16px;
+                display: inline-block;
+                margin-top: 12px;
+                float: right;
+                
+            }  
+            .searchgrid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+          
+            }
+
+            .channel-pic {
+                display: inline-block;
+                width: 50px;
+                vertical-align: top;
+
+            }
+
+            .vid-info {
+                display: inline-block;
+                width: 200px;
+
+
+            }
+
+            .profile-pic {
+                width: 70%;
+                border-radius: 50px;
+               
+                margin-bottom: 0px;
+
+
+            }
+
+            .title {
+                color: aliceblue;
+                margin-top: 0px;
+                font-size: 14px;
+                font-weight: 500;
+                line-break: 20px;
+                margin-bottom: 12px;                
+            }
+            
+            .thumbnail-row {
+                margin-bottom: 10px;
+            }
+
+            .author, .views {
+                font-size: 12px;
+                color:rgb(170, 170, 170) ;
+            }
+            .author {
+                margin-bottom: 4px;
+            }
+
+            .video-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 50px;
+                row-gap: 30px;
+
+            }
+ 
+
+
+
+
+
+
+            .overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #545859;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            transform: scale(0);
+            transition: .7s ease;
+            opacity: 0.4;
+          }
+          .thumbnail-row:hover .overlay {
+            transform: scale(1);
+          }
+          .imgdis {
+            color: white;
+            font-size: 10px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            height: 100%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            opacity: 1;
+            
+          }
+          .thumbnail-row {
+            position: relative;
+            width: 100%;
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </style>
+    </head>
+   
+
+    <body style="background-color: rgb(19, 19, 54);">
+        <div class="video-grid">
+
+            <div class="vidioall">
+    
+                <div class="thumbnail-row">
+                     <img class="thumbnail" src="goblin.jpg" alt="img" >
+
+                     <div class="overlay"> <p class="imgdis">Kim Shin (Gong Yoo) is a goblin who is also a protector of souls. He lives together with an amnesiac grim reaper (Lee Dong Wook) who is in charge of taking deceased souls. Together the two of them sees the dead off into the afterlife. Meanwhile, Ji Eun Tak (Kim Go Eun) is a high school student who despite her painful reality, remains optimistic. She ends up falling in love with the goblin. Kim Sun (Yoo In Na) is an owner of a chicken shop; a bright and attractive girl who is loved by all men.
+
+                    </p>
+                    </div>
+                    
+                </div>
+        
+                
+        
+                <div> 
+                    <div class="channel-pic">
+                        <img class="profile-pic" src="channels4_profile.jpg" alt="">
+                    </div>
+        
+        
+                    <div class="vid-info">
+                        <p class="title">
+                            <a href="http://fdrama.net/watch-online/goblin/episode-1">goblin</a>
+                        </p>
+                            <p class="author">Episode 16</p>
+                            <p class="views">1.8M views 1 year ago</p>
+                    </div>
+                    
+                   
+                </div> 
+    </body>
+    
+</html>

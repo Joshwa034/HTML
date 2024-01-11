@@ -1,0 +1,22 @@
+
+.joshwabtn {
+background-color: rgb(123, 133, 163);
+margin-top: 300px;
+margin-left: 300px;
+border-radius: 10px;
+border: none;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-left: 8px;
+padding-right: 8px;
+font-size: large;
+font-style: bold;
+font-weight: 600;
+cursor: pointer;
+
+}
+.joshwabtn:hover{
+background-color: rgb(177, 192, 192);
+color: azure;
+transition: background-color 0.4s , color 0.4;
+}
